@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title> Zedland Health Authority Contact Form</title>
+        <script src="contactform.js"></script> 
+		 <link rel="stylesheet" type="text/css" href="diabetestool.css">
+  </head>
+  <body>
+       
+	   <nav id="commonLinks">
+	     <ul>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Accessibility</a></li>
+			<li><a href="#">Login</a></li>
+		   </ul>
+	 </nav>	
+
+		<h1>Zedland Health Authority</h1> 
+		<h2>Contact Form</h2>
+		<form id="contactForm" >
+			<fieldset>
+		    <div class="answerBox">
+				<label for="firstName">First Name<cite>*</cite>:</label>
+			    <input id="fname" type="text"><span id="fnameError" class="error">*You must enter a first name</span>
+			</div> 
+				
+			<div class="answerBox">
+			   <label for="surName">Surname<cite>*</cite>:</label>
+			      <input id="lname" type="text" ><span id="lnameError" class="error">* You must enter a last name</span>
+			</div> 
+				
+			<div class="answerBox">
+				<label for="Title">Title<cite>*</cite>:</label>
+				  <select name="title" id="title">
+				             <option selected="selected" value="Select a title">Select a title</option>
+						     <option value="1">Mr</option>
+							 <option value="2">Ms</option>
+							 <option value="3">Miss</option>
+							 <option value="4">Master</option>
+				  </select><span id="titleError" class="error">* You must select a title.</span>
+            </div>
+                  
+             <div class="answerBox">				  
+                <label for="han">Health Authority Number<cite>*</cite>:</label>
+			      <input id="han" type="text"><span id="hanError" class="error">* You must enter a health authority number (e.g ZHA346783)</span>
+		     </div>
+				  
+			 <div class="answerBox">	
+				<label for="e-mail">E-mail<cite>*</cite>:</label>
+                   <input id="email" type="text"><span id="emailError" class="error">* You must enter a valid email address</span>		
+                </div>	
+						
+		     <div class="answerBox">		
+				<label for="telephone">Telephone Number:</label>
+                  <input id="teleNumber" type="text"><span id="teleNumberError" class="error">Please enter a valid telephone number, it has to be 11 digits long and starting with a 0</span>
+             </div>
+				  
+				<p id="required"><cite>*</cite>required fields</p>
+				<div class="submit">
+					<input type="submit" value="Submit">
+				</div>	
+				
+			</fieldset>			
+		</form>
+		
+		  <footer id="pagefooter">
+			<ul>
+				<li><a href="">Privacy</a></li>
+				<li><a href="">Terms and Conditions</a></li>
+				<li><a href="">Returns</a></li>
+		</ul>
+	   </footer>		
+	
+   </body>
+</html>
