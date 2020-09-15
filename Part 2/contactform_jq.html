@@ -1,0 +1,78 @@
+<!Doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title> Zedland Health Authority Contact Form</title>
+		<link rel="stylesheet" type="text/css" href="contactform_jq.css">
+		<script src ="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="contactform_jq.js"></script>
+  </head>
+  <body>
+       
+	   <nav id="commonLinks">
+	     <ul>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Accessibility</a></li>
+			<li><a href="#">Login</a></li>
+		   </ul>
+	 </nav>	
+
+		<h1>Zedland Health Authority</h1> 
+		<h2>Contact Form</h2>
+		<form id="contactForm" >
+			<fieldset>
+		    <div class="answerBox">
+			   <label for="fName">First Name<cite>*</cite>:</label>
+			     <input id="fName" name="fname" type="text">  
+			</div> 
+				
+			<div class="answerBox">
+			   <label for="lName">Surname<cite>*</cite>:</label>
+			      <input id="lName" name="lname" type="text" >
+			</div> 
+				
+			<div class="answerBox">
+				<label for="Title">Title<cite>*</cite>:</label>
+				  <select name="title" id="title">
+				             <option selected="selected" value="Select a title">Select a title</option>
+						     <option value="1">Mr</option>
+							 <option value="2">Ms</option>
+							 <option value="3">Miss</option>
+							 <option value="4">Master</option>
+				  </select>
+            </div>
+                  
+             <div class="answerBox">				  
+                <label for="han">Health Authority Number<cite>*</cite>:</label>
+			      <input id="han" name="han" type="text">
+		     </div>
+				  
+			 <div class="answerBox">	
+				<label for="email">E-mail<cite>*</cite>:</label>
+                   <input id="email" type="email">	
+                </div>	
+						
+		     <div class="answerBox">		
+				<label for="teleNumber">Telephone Number:</label>
+                  <input id="teleNumber" name="teleNumber" type="text">
+             </div>
+				  
+				<p id="required"><cite>*</cite>required fields</p>
+				<div class="submit">
+					<input type="submit" value="Submit">
+				</div>	
+				
+			</fieldset>			
+		</form>
+		
+		  <footer id="pagefooter">
+			<ul>
+				<li><a href="">Privacy</a></li>
+				<li><a href="">Terms and Conditions</a></li>
+				<li><a href="">Returns</a></li>
+		</ul>
+	   </footer>		
+	
+   </body>
+</html>
